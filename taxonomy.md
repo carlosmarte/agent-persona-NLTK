@@ -154,7 +154,7 @@ Raw Input
 ```
 
 # Implementation Taxonomy Table
-```
+
 | Category | Type | NLTK implementation / example |
 |---|---|---|
 | **Role** | Tokenization | Decomposes raw text into sentences, words, or custom lexical units using `nltk.tokenize`; commonly provides the lexical boundary layer for downstream NLP. |
@@ -205,4 +205,4 @@ Raw Input
 | **Test Case** | Unicode / Encoding | Process multilingual Unicode, combining characters, curly quotes, accented characters, and malformed decoded input to verify normalization and token-boundary behavior. |
 | **Test Case** | Performance / Scale | Benchmark tokenization, tagging, frequency analysis, and classification over progressively larger corpora; record throughput, peak memory, and latency regression thresholds. |
 | **Test Case** | End-to-End Integration | Execute `raw text → tokenize → normalize → POS tag → chunk/classify → structured output` and validate schemas, token counts, labels, errors, and downstream API/storage compatibility. |
-```
+
